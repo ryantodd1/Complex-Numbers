@@ -3,15 +3,15 @@ Adds overloads of basic arithmetic operators to allow for basic mathematical ope
 
 Include the complex.h file in your main and you should be good to go!
 
-In all of these examplex I use the constant "i" to represent sqrt(-1), however in the code, I prefer to use "j"
+In all of these examples I use the constant "i" to represent sqrt(-1), however in the code, I prefer to use "j"
 
-Three types of constructors when defining the a new complex variable
+Three types of constructors when defining a new complex variable
 complex z;      // z = 0 + 0i;
 complex z(x);   // z = x + 0i;
 complex z(x,y)  // z = x + iy;
 
 The following operators are overloaded
-{ + , += , - , -= , * , *= , / , /= , == , < , <= , > , >= , << , >>}
+{ + , += , - , -= , * , *= , / , /= , == , < , <= , > , >= , << , >> }
 
 When inputing a complex number, the stream extraction operator is expecting the real part followed by a space 
 and then the imaginary part
@@ -19,7 +19,7 @@ example:  std::cin >> z;
 console -> 4 6 [enter]  
 z is now equal to 4 + 6i
 
-When a complex object is sent into a stream output it is output in the form a + bi
+When a complex object is sent into a stream insertion operator it is output in the form a + bi
 example:  std::cout << "Hello World! : " << z << "\n";  
 output :  Hello World! : a + bi;
 
