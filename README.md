@@ -34,8 +34,13 @@ The <cmath> library is included, and the following functions are curently able t
 
 Other functions are included
 { Re , Im , mod , conj , arg }
+
 Re(z)   returns the real part of the complex number.
+
 Im(z)   returns the imaginary part of the complex number.
+
 mod(z)  returns the modulus "absolute value" of the complex number.
+
 conj(z) returns the complex conjugate of the complex number -> z  (z.re -1*z.im).
+
 arg(z)  returns the principal angle of the complex number (-180 , 180].
