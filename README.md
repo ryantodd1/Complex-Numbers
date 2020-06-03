@@ -1,8 +1,9 @@
 # Complex-Numbers
 Adds overloads of basic arithmetic operators to allow for basic mathematical operators with complex numbers
 
-In all of these examplex I use the constant "i" to represent sqrt(-1), however in the code, I prefer to use "j"
+Include the complex.h file in your main and you should be good to go!
 
+In all of these examplex I use the constant "i" to represent sqrt(-1), however in the code, I prefer to use "j"
 
 Three types of constructors when defining the a new complex variable
 complex z;      // z = 0 + 0i;
